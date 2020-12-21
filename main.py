@@ -15,7 +15,7 @@ def main():
     values, columns = ts.get_intraday(symbol='TSLA', interval='10min')
 
     #import matplotlib.pyplot as plt
-    print(values)
+    print(values, columns)
 
 if __name__ == '__main__':
     main()
